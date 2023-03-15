@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="number" id="num">
+<button onclick="dem100()">run</button>
+<p id="demo"></p>
+<script>
+    function dem100(i) {
+
+
+        let dem = document.getElementById('num').value;
+        for (let i = 1; i <= dem; i++) {
+            document.write(i + '<br>');
+            if (i === 99) {
+                alert('da hoan thanh');
+                break;
+            }
+        }
+    }
+</script>
+</body>
+</html>
